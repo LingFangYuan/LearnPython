@@ -1,0 +1,24 @@
+2019-04-23 16:11:03,803 - __main__ - ERROR - division by zero
+Traceback (most recent call last):
+  File "<ipython-input-1-24d3ca61b73d>", line 28, in <module>
+    10/0
+ZeroDivisionError: division by zero
+2019-04-23 16:11:03,818 - __main__ - INFO - Start print log
+2019-04-23 16:11:03,821 - __main__ - WARNING - Something maybe fail.
+2019-04-23 16:11:03,825 - __main__ - INFO - Finish
+2019-04-23 16:12:19,795 - __main__ - ERROR - division by zero
+Traceback (most recent call last):
+  File "<ipython-input-1-f1cd27b3c986>", line 28, in <module>
+    10/0
+ZeroDivisionError: division by zero
+2019-04-23 16:12:19,810 - __main__ - INFO - Start print log
+2019-04-23 16:12:19,813 - __main__ - WARNING - Something maybe fail.
+2019-04-23 16:12:19,862 - __main__ - INFO - Finish
+2019-04-23 16:25:14,932 - __main__ - ERROR - dfdf
+Traceback (most recent call last):
+  File "<ipython-input-1-3254e9835aa4>", line 28, in <module>
+    10/0
+ZeroDivisionError: division by zero
+2019-04-23 16:25:14,945 - __main__ - INFO - Start print log
+2019-04-23 16:25:14,951 - __main__ - WARNING - Something maybe fail.
+2019-04-23 16:25:14,954 - __main__ - INFO - Finish
