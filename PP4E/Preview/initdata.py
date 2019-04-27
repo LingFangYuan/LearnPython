@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- conding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # initialize data to be stored in files, pickles, shelves
 
