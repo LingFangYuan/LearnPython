@@ -1,3 +1,21 @@
 2019-04-23 16:25:14,945 - __main__ - INFO - Start print log
 2019-04-23 16:25:14,951 - __main__ - WARNING - Something maybe fail.
 2019-04-23 16:25:14,954 - __main__ - INFO - Finish
+2019-05-09 10:10:37,805 - __main__ - ERROR - division by zero
+Traceback (most recent call last):
+  File "<ipython-input-2-37450bedad41>", line 28, in <module>
+    10/0
+ZeroDivisionError: division by zero
+2019-05-09 10:10:37,896 - __main__ - WARNING - Something maybe fail.
+2019-05-09 10:11:09,955 - __main__ - ERROR - division by zero
+Traceback (most recent call last):
+  File "<ipython-input-3-3cdd41f2b6ed>", line 28, in <module>
+    10/0
+ZeroDivisionError: division by zero
+2019-05-09 10:11:09,955 - __main__ - ERROR - division by zero
+Traceback (most recent call last):
+  File "<ipython-input-3-3cdd41f2b6ed>", line 28, in <module>
+    10/0
+ZeroDivisionError: division by zero
+2019-05-09 10:11:09,964 - __main__ - WARNING - Something maybe fail.
+2019-05-09 10:11:09,964 - __main__ - WARNING - Something maybe fail.
