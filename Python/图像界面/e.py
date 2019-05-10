@@ -6,8 +6,8 @@ colormode(255)
 lt(90)
 
 lv = 14
-l = 50
-s = 25
+l = 120
+s = 45
 
 width(lv)
 
@@ -28,26 +28,42 @@ def draw_tree(l, level):
     w = width()
 
     # narrow the pen width
-    width(w * 3.0 / 4.0)
+    width(w * 4.0 / 5.0)
     # set color:
     r = r + 1
     g = g + 2
     b = b + 3
     pencolor(r % 200, g % 200, b % 200)
 
-    l = 3.0 / 4.0 * l
+    l = 4.0 / 5.0 * l
 
     lt(s)
     fd(l)
+    
 
     if level < lv:
         draw_tree(l, level + 1)
+        
+    if level == 14:
+        for i in range(5):
+            fd(l)
+            rt(144)
     bk(l)
     rt(2 * s)
     fd(l)
+    # rt(180 - s)
+    # fd(l)
+    # rt(180 - s)
+    # fd(l)
+    # bk(l)
+    # rt(180)
 
     if level < lv:
         draw_tree(l, level + 1)
+    if level == 14:
+        for i in range(5):
+            fd(l)
+            rt(144)
     bk(l)
     lt(s)
 
