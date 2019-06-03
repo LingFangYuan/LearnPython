@@ -101,7 +101,18 @@ class neural_network(object):
         for k, v in self.out_l.items():
             v.operation()
             rs[k] = v.output.data
+        self.clear()
         return rs
+
+    def clear(self):
+        ' 清理神经单元的输出'
+
+        for v in self.inp_l.values():
+            v.data = np.NaN
+        for v in self.mid_l.values():
+            v.data = np.NaN
+        for v in self.out_l.values():
+            v.data = np.NaN
 
 
 class neural_network_01(neural_network):
@@ -152,6 +163,7 @@ class neural_network_01(neural_network):
         for k, v in self.out_l.items():
             v.operation()
             rs[k] = v.output.data
+        self.clear()
         return "识别为：0" if rs[1] > rs[2] else "识别为：1"
 
 
