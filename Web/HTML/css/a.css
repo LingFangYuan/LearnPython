@@ -1,0 +1,24 @@
+body {
+  background: #d0e4fe url("../cat.jpg") fixed;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+/*id选择器*/
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+/*类型选择器以一个"."号显示*/
+p.center {
+  text-align: center;
+}
