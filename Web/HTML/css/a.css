@@ -10,6 +10,8 @@ h1 {
 p {
   font-family: "Times New Roman";
   font-size: 20px;
+  border-bottom: 1px solid;
+  border-radius: 7px;
 }
 
 /*id选择器*/
@@ -21,4 +23,53 @@ p {
 /*类型选择器以一个"."号显示*/
 p.center {
   text-align: center;
+}
+
+a.variation:link,
+vistied {
+  display: block;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #98bf21;
+  width: 120px;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+
+a.variation:hover,
+active {
+  display: block;
+  font-weight: bold;
+  font-size: 150%;
+  color: #FFFFFF;
+  background-color: #00bf21;
+  width: 120px;
+  text-align: center;
+  padding: 4px;
+  text-decoration: underline;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+#p1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: yellow;
 }
