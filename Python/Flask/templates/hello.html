@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Flask模板示例</title>
+  <style type="text/css">
+  table {
+    border-collapse: collapse;
+  }
+  </style>
+  <script type="text/javascript" src="{{ url_for('static', filename='hello.js') }}"></script>
+</head>
+
+<body>
+  {% if marks>50 %}
+  <h1> 通过考试 </h1>
+  {% else %}
+  <h1> 未通过考试 </h1>
+  {% endif %}
+  <table border=1>
+    {% for key, value in result.items() %}
+    <tr>
+      <td> {{ key }} </td>
+      <td> {{ value }} </td>
+    </tr>
+    {% endfor %}
+  </table>
+  <input type="button" onclick="sayHello()" value="Say Hello" />
+</body>
+
+</html>
