@@ -5,67 +5,92 @@ p {
 }
 
 .marked {
-    background-color: red;
+  background-color: red;
 }
 
 .marked p {
-    color: white;
-    display: none;
+  color: white;
+  display: none;
 }
 
 p.marked {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 div.static {
-    position: static;
-    border: 3px solid #73AD21;
+  position: static;
+  border: 3px solid #73AD21;
 }
 
 div.pos_fixed {
-    position: fixed;
-    top: 30px;
-    right: 5px;
+  position: fixed;
+  top: 30px;
+  right: 5px;
 }
 
 h2.pos_left {
-    position: relative;
-    left: -20px;
+  position: relative;
+  left: -20px;
 }
 
 h2.pos_right {
-    position: relative;
-    left: 20px;
+  position: relative;
+  left: 20px;
 }
 
 div.sticky {
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    background-color: #cae8ca;
-    border: 2px solid #4caf50;
+  position: sticky;
+  bottom: 0px;
+  right: 0px;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4caf50;
 }
 
 div.overflow {
-    overflow: auto;
-    width: 200px;
-    height: 50px;
-    border: 1px solid black;
-    border-radius: 5px;
+  overflow: auto;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 img.float_right {
-    float: right;
-    border: 1px dotted black;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+  float: right;
+  border: 1px dotted black;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
 }
 
 span.float_left {
-    float: left;
-    width: 1.2em;
-    font-size: 400%;
-    font-family: algerian, courier;
-    line-height: 80%;
+  float: left;
+  width: 1.2em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
+
+a.red:hover {
+  color: #FF0000;
+}
+
+p:first-child {
+    color: green;
+}
+
+p>i:first-child {
+    color: red;
+}
+
+p:first-child i {
+    color: red;
+}
+
+q:lang(no) {
+    quotes: "~" "~";
+}
+
+input:focus {
+    background-color: yellow;
 }
