@@ -1,0 +1,49 @@
+p:first-child {
+  color: blue;
+}
+
+p>i:first-child {
+  color: blue;
+}
+
+p:first-child i {
+    color: red;
+}
+
+p:empty {
+    width: 100px;
+    height: 20px;
+    background-color: #ff0000;
+}
+
+input:focus {
+    background-color: #555555;
+}
+
+input:checked {
+    height: 50px;
+    width: 50px;
+}
+
+input[type="text"]:enabled {
+    background-color: #ffff00;
+}
+
+input[type="text"]:disabled {
+    background-color: #dddddd;
+}
+
+input:in-range {
+    border: 2px solid yellow;
+    color: red;
+}
+
+p:first-line {
+    background-color: #aaaaaa;
+    font-variant: small-caps;
+}
+
+p:first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
