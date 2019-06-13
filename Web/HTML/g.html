@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="5" />
+  <title>javascript1</title>
+  <script>
+    function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+  };
+  function changeImage(s) {
+    s.src = s.src.match("bulbon")?"./images/pic_bulboff.gif":"./images/pic_bulbon.gif";
+  };
+  function myfunction() {
+    document.getElementById("demo").style.color="#ff0000";
+  };
+  function fun1() {
+    var x = document.getElementById("demo1").value;
+    if (x.replace(/(^\s*)|(\s*$)/g,"")=="" || isNaN(x))
+    {
+      alert("不是数字");
+    }
+    else
+    {
+      alert("是数字");
+    };
+  };
+  </script>
+</head>
+
+<body>
+  <h1>我的第一个 JavaScript 程序</h1>
+  <p id="demo">这是一个段落</p>
+  <button type="button" onclick="displayDate()">显示日期</button>
+  <script>
+    document.write("<h1>这是一个标题</h1>");
+    document.write("<p>这是一个段落</p>");
+  </script>
+  <button type="button" onclick="alert('欢迎！');myfunction()">点我！</button><br />
+  <img id="myimage" src="./images/pic_bulboff.gif" alt="灯泡" onclick="changeImage(this)" /><br />
+  <input id="demo1" type="text" /><button type="button" onclick="fun1()">检测</button>
+</body>
+
+</html>
