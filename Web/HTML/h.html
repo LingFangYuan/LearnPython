@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="5" />
+  <title>JavaScript语法</title>
+</head>
+
+<body>
+  <h1>JavaScript字面量</h1>
+  <dl>
+    <dt>数字</dt>
+    <dd>整数: 1001</dd>
+    <dd>浮点数: 3.14</dd>
+    <dd>科学计数: 123e5</dd>
+    <dt>字符串</dt>
+    <dd>"ling"</dd>
+    <dd>"ffff"</dd>
+    <dt>表达式</dt>
+    <dd>5 + 6</dd>
+    <dd>5 * 100</dd>
+    <dt>数组</dt>
+    <dd>[1, 2, 22, 335]</dd>
+    <dt>对象</dt>
+    <dd>{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}</dd>
+    <dt>函数</dt>
+    <dd>function myFunction(a, b) { return a * b; }</dd>
+  </dl>
+  <h1></h1>
+  <p id="demo"></p>
+  <script>
+  var length, x, y, z;
+  var person = {
+    firstname: "John",
+    lastname: "Doe",
+    id: 5566
+  };
+  length = 6;
+  x = 5; //通过数字字面量赋值
+  y = 6;
+  z = (x + y) * 10;
+
+  function myFunction(a, b){
+    return a * b
+  }
+  document.getElementById("demo").innerHTML = myFunction(5, 6);
+  document.write(person.lastname + "<br />");
+  document.write(person["firstname"] + "<br />");
+  </script>
+</body>
+
+</html>
