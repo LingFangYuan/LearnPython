@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="5" />
+  <title>JavaScript 循环结构</title>
+</head>
+
+<body>
+  <h1>for 循环</h1>
+  <script>
+  cars = ["BMW", "Volvo", "Saab", "Ford"];
+  for (var i = 0; i < cars.length; i++) {
+    document.write(cars[i] + "<br />");
+  }
+  </script>
+  <h1>for/in 循环</h1>
+  <script>
+  var person = { fname: "John", lname: "Doe", age: 25 };
+  for (x in person) {
+    document.write(x + ":" + person[x] + "<br />");
+  }
+  </script>
+  <h1>while 循环</h1>
+  <p id="demo2"></p>
+  <button onclick="myfunction2()">点击这里</button>
+  <script>
+  function myfunction2() {
+    var x = "",
+      i = 0;
+    while (i < 5) {
+      x = x + "该数字为 " + i + "<br />";
+      i++;
+    }
+    document.getElementById("demo2").innerHTML = x;
+  }
+  </script>
+  <h1>do/while 循环</h1>
+  <p id="demo3"></p>
+  <button onclick="myfunction3()">点击这里</button>
+  <script>
+  function myfunction3() {
+    var x = "",
+      i = 0;
+    do {
+      x = x + "该数字为 " + i + "<br />";
+      i++;
+    } while (i < 5);
+    document.getElementById("demo3").innerHTML = x;
+  }
+  </script>
+</body>
+
+</html>
