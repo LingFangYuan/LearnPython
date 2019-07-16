@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="5" />
+  <title>正则表达式</title>
+</head>
+
+<body>
+  <p>搜索字符串 "runoob", 并显示匹配的起始位置: </p>
+  <button onclick="myFunction()">点我</button>
+  <p id="demo"></p>
+  <p>替换 "microsoft" 为 "Runoob": </p>
+  <button onclick="myFunction1()">点我</button>
+  <p id="demo1">Visit Microsoft! microsoft</p>
+  <script>
+    function myFunction() {
+      var str = "Visit Runoob!";
+      var n = str.search(/Runoob/i);
+      document.getElementById("demo").innerHTML = n;
+    }
+    function myFunction1() {
+      var str = document.getElementById("demo1").innerHTML;
+      var txt = str.replace(/microsoft/igm, 'Runoob');
+      document.getElementById("demo1").innerHTML = txt;
+    }
+    document.write(/e/i.test("The best things in life are free") + "<br />");
+    document.write(/e/.exec("The best things in life are free"));
+  </script>
+</body>
+
+</html>

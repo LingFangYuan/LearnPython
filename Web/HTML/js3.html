@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="5" />
+  <title>typeof 操作符、数据类型</title>
+</head>
+
+<body>
+  <h1>typeof 操作符</h1>
+  <p>typeof 操作符返回变量或表达式的类型。</p>
+  <p id="demo"></p>
+  <script>
+    document.getElementById("demo").innerHTML = 
+      typeof "john" + "<br />" +
+      typeof 3.14 + "<br />" +
+      typeof NaN + "<br />" +
+      typeof false + "<br />" +
+      typeof [1,2,3,4] + "<br />" +
+      typeof {name: "john", age: 34} + "<br />" +
+      typeof new Date() + "<br />" +
+      typeof function () {} + "<br />" +
+      typeof null + "<br />" +
+      typeof undefined + "<br />" +
+      (null == undefined) + "<br />" +
+      (null === undefined) + "<br />";
+  </script>
+  <h1>数据类型</h1>
+  <p>constructor 属性返回变量或对象的构造函数。</p>
+  <p id="demo1"></p>
+  <p>判断是否为数组</p>
+  <p id="demo2"></p>
+  <script>
+    document.getElementById("demo1").innerHTML = 
+      "john".constructor + "<br />" +
+      (3.14).constructor + "<br />" +
+      false.constructor + "<br />" +
+      [1,2,3,4,5].constructor + "<br />" +
+      {name: "john", age: 34}.constructor + "<br />" +
+      new Date().constructor + "<br />" +
+      function () {}.constructor;
+    var fruits = ["Banana", "Orange", "Apple", "Manggo"];
+    document.getElementById("demo2").innerHTML = isArray(fruits);
+    function isArray(myArray){
+      return myArray.constructor.toString().indexOf("Array") > -1;
+    }
+  </script>
+</body>
+
+</html>
