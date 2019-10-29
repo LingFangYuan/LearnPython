@@ -10,6 +10,8 @@ Desktop.ini
 *.egg-info
 dist
 build
+venv
+venv1
 
 # Jupyter
 .ipynb_checkpoints
