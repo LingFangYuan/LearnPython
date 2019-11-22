@@ -1,0 +1,128 @@
+// http: //service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F10746%2F&t=20191119918347324&Ajax_CallBackArgument0=10746
+
+// http: //service.library.mtime.com/Movie.api?Ajax_CallBack=true&Ajax_CallBackType=Mtime.Library.Services&Ajax_CallBackMethod=GetMovieOverviewRating&Ajax_CrossDomain=1&Ajax_RequestUrl=http%3A%2F%2Fmovie.mtime.com%2F266411%2F&t=201911199205510951&Ajax_CallBackArgument0=266411
+
+{
+  "value":
+  {
+    "isRelease": false,
+    "movieRating":
+    {
+      "MovieId": 266411,
+      "RatingFinal": 0,
+      "RDirectorFinal": 0,
+      "ROtherFinal": 0,
+      "RPictureFinal": 0,
+      "RShowFinal": 0,
+      "RStoryFinal": 0,
+      "RTotalFinal": 0,
+      "Usercount": 0,
+      "AttitudeCount": 1,
+      "UserId": 0,
+      "EnterTime": 0,
+      "JustTotal": 0,
+      "RatingCount": 0,
+      "TitleCn": "",
+      "TitleEn": "",
+      "Year": "",
+      "IP": 0
+    },
+    "movieTitle": "白巷里",
+    "tweetId": 0,
+    "userLastComment": "",
+    "userLastCommentUrl": "",
+    "releaseType": 2
+  },
+  "error": null
+}
+
+
+{
+  "value":
+  {
+    "isRelease": true,
+    "movieRating":
+    {
+      "MovieId": 10746,
+      "RatingFinal": 8.8,
+      "RDirectorFinal": 8.7,
+      "ROtherFinal": 9.4,
+      "RPictureFinal": 8.6,
+      "RShowFinal": 8.9,
+      "RStoryFinal": 8.8,
+      "RTotalFinal": 8.9,
+      "Usercount": 38975,
+      "AttitudeCount": 5900,
+      "UserId": 0,
+      "EnterTime": 0,
+      "JustTotal": 0,
+      "RatingCount": 0,
+      "TitleCn": "",
+      "TitleEn": "",
+      "Year": "",
+      "IP": 0
+    },
+    "movieTitle": "海上钢琴师",
+    "tweetId": 0,
+    "userLastComment": "",
+    "userLastCommentUrl": "",
+    "releaseType": 1,
+    "boxOffice":
+    {
+      "Rank": 2,
+      "TotalBoxOffice": "7652.4",
+      "TotalBoxOfficeUnit": "万",
+      "TodayBoxOffice": "391.0",
+      "TodayBoxOfficeUnit": "万",
+      "ShowDays": 5,
+      "EndDate": "2019-11-19 09:20",
+      "FirstDayBoxOffice": "1405.73",
+      "FirstDayBoxOfficeUnit": "万"
+    }
+  },
+  "error": null
+}
+
+{
+  "value":
+  {
+    "isRelease": false,
+    "movieRating":
+    {
+      "MovieId": 236608,
+      "RatingFinal": -1,
+      "RDirectorFinal": 0,
+      "ROtherFinal": 0,
+      "RPictureFinal": 0,
+      "RShowFinal": 0,
+      "RStoryFinal": 0,
+      "RTotalFinal": 0,
+      "Usercount": 5,
+      "AttitudeCount": 19,
+      "UserId": 0,
+      "EnterTime": 0,
+      "JustTotal": 0,
+      "RatingCount": 0,
+      "TitleCn": "",
+      "TitleEn": "",
+      "Year": "",
+      "IP": 0
+    },
+    "movieTitle": "江南灵异录之白云桥",
+    "tweetId": 0,
+    "userLastComment": "",
+    "userLastCommentUrl": "",
+    "releaseType": 2,
+    "hotValue":
+    {
+      "MovieId": 236608,
+      "Ranking": 53,
+      "Changing": 4,
+      "YesterdayRanking": 57
+    }
+  },
+  "error": null
+}
+
+
+

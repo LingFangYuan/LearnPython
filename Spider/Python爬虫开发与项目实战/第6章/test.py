@@ -1,0 +1,1 @@
+print("<td width=25%%>%s</td>" % 'url')

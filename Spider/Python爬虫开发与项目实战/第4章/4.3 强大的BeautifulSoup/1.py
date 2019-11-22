@@ -18,8 +18,8 @@ html_str = """
      </body></html>
      """
 
-soup = BeautifulSoup(html_str, 'lxml')
-#soup = BeautifulSoup(open(r'index.html'), 'lxml')
+#soup = BeautifulSoup(html_str, 'lxml')
+soup = BeautifulSoup(open('index.html'), 'lxml')
 print(soup.prettify())
 print(soup.title)
 print(soup.a)
