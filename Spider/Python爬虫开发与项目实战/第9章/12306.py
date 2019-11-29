@@ -51,6 +51,8 @@ try:
     train_date.send_keys('2019-12-01')
     train_date.click()
     time.sleep(3)
+    train_date.send_keys(Keys.SHIFT, Keys.TAB)
+    toStationText.send_keys(Keys.TAB)
     date_button = driver.find_element_by_xpath('.//div[@class="cal-cm"]/div[@class="cell" and contains(@style, "border")]')
     date_button.click()
 
