@@ -28,5 +28,5 @@ region = im4.crop(box)
 #将图片字符放大
 out = region.resize((120,38)) 
 asd = pytesseract.image_to_string(out)
-print asd
+print (asd)
 print (out.show())
